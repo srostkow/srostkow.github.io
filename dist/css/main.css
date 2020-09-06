@@ -308,9 +308,32 @@ template {
 [hidden] {
   display: none; }
 
+.hero {
+  max-width: 1184px;
+  padding: 112px 0 200px;
+  margin: 0 auto; }
+  .hero__description {
+    color: #52606D;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 36px;
+    max-width: 780; }
+  .hero__image {
+    width: 120px;
+    height: 120px; }
+  .hero__title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    max-width: 780; }
+
 html {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+          box-sizing: border-box;
+  font-size: 16px; }
 
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
