@@ -316,19 +316,23 @@ template {
     color: #52606D;
     font-style: normal;
     font-weight: 300;
-    font-size: 20px;
-    line-height: 36px;
-    max-width: 780; }
+    font-size: 1.25rem;
+    line-height: 2.25rem;
+    max-width: 780px; }
   .hero__image {
     width: 120px;
     height: 120px; }
+  .hero__link {
+    color: #0593FB;
+    font-weight: 500; }
   .hero__title {
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
     font-size: 2.5rem;
     line-height: 3.5rem;
-    max-width: 780; }
+    max-width: 780px;
+    margin: 2rem 0 1rem; }
 
 html {
   -webkit-box-sizing: border-box;
