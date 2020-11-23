@@ -1,6 +1,6 @@
 .hero {
-    max-width: 1184px;
-    padding: 112px 0 200px;
+    max-width: 1216px;
+    padding: 112px 16 184px;
     margin: 0 auto;
     &__description {
         color: $grey;
@@ -20,7 +20,7 @@
         font-weight: 500;
     }
     &__mail {
-        color $blue;
+        color: $blue;
         font-weight: 500;
         font-size: 1.25rem;
         text-decoration: none;

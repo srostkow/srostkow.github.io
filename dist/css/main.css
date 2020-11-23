@@ -309,8 +309,8 @@ template {
   display: none; }
 
 .hero {
-  max-width: 1184px;
-  padding: 112px 0 200px;
+  max-width: 1216px;
+  padding: 112px 16 184px;
   margin: 0 auto; }
   .hero__description {
     color: #52606D;
@@ -318,13 +318,21 @@ template {
     font-weight: 300;
     font-size: 1.25rem;
     line-height: 2.25rem;
-    max-width: 780px; }
+    max-width: 780px;
+    margin-bottom: 3.75rem; }
   .hero__image {
     width: 120px;
     height: 120px; }
   .hero__link {
     color: #0593FB;
     font-weight: 500; }
+  .hero__mail {
+    color: #0593FB;
+    font-weight: 500;
+    font-size: 1.25rem;
+    text-decoration: none;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #0593FB; }
   .hero__title {
     font-family: Poppins;
     font-style: normal;
@@ -334,10 +342,59 @@ template {
     max-width: 780px;
     margin: 2rem 0 1rem; }
 
+.skills {
+  max-width: 1216px;
+  margin: 0 auto 8rem;
+  padding: 0 16px; }
+  .skills__title {
+    font-size: 2.25rem;
+    margin: 0;
+    font-style: normal;
+    font-weight: 600;
+    padding: 1rem 0;
+    border-bottom: 2px solid #E5E8EC; }
+
+.skills__category {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  padding: 8rem 0 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .skills__category__item {
+    color: #52606D; }
+  .skills__category__list {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    list-style-type: none;
+    padding: 0;
+    margin-top: calc(1.5rem + 4px);
+    -webkit-column-gap: 1.5px;
+       -moz-column-gap: 1.5px;
+            column-gap: 1.5px; }
+  .skills__category__title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    margin: 0; }
+    .skills__category__title::before {
+      content: '';
+      width: 80px;
+      height: 4px;
+      display: block;
+      background: #06C847;
+      border-radius: 8px;
+      margin-bottom: 1.5rem; }
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-size: 16px; }
+  font-size: 16px;
+  scroll-behavior: smooth; }
 
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
@@ -348,5 +405,10 @@ body {
   background: #FFF;
   font-family: 'Poppins', sans-serif;
   border: 16px solid #171F3F; }
+
+.container {
+  max-width: 1216;
+  padding: 0 16px;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=main.css.map */
