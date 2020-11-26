@@ -2,6 +2,7 @@
 @import "_variables";
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap&subset=latin-ext');
 @import "modules/hero.scss";
+@import "modules/projects.scss";
 @import "modules/skills.scss";
 
 
@@ -23,7 +24,7 @@ body {
 }
 
 .container {
-  max-width: 1216;
+  max-width: 1216px;
   padding: 0 16px;
   margin: 0 auto;
 }
